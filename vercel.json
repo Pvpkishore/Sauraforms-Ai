@@ -2,19 +2,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "nodeVersion": "20.x",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "OpenAI API key for form generation"
-    },
-    "MONGODB_URI": {
-      "description": "MongoDB connection string (optional)",
-      "value": ""
-    },
-    "NEXT_PUBLIC_USE_MONGODB": {
-      "description": "Enable MongoDB storage (true/false)",
-      "value": "false"
-    }
-  }
+  "framework": "nextjs"
 }
